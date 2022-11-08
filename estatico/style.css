@@ -8,13 +8,22 @@
 	background-color: black;
     border-radius: 1rem 1rem 0rem 0rem;
 }
-#cabecera{
-	border: 2px solid gray;
+.bordesCebecera{
+	border: 1px solid gray;
 	border-radius: 2rem;
 }
+.bordesSeccion{
+	border: 1px solid gray;
+	border-radius: 2rem;
+	padding-left: 3rem;
+	padding-right: 3rem;
+	margin-top: 1rem;
+	padding-top: 1rem;
+}
+/* // my-3 px-5 */
 .fotoPerfil{
 	border-radius: 50%;
-	max-width: 200px;
+	max-width: 175px;
 	margin-left: 5rem;
 	/* transform: translateY(-6.5em); */
 }
@@ -23,4 +32,14 @@
 }
 #infoCabecera p{
 	margin-bottom: 0.1rem;
+}
+.trabajo{
+	margin-bottom: 1rem;
+}
+.trabajo img{
+	max-width: 50px;
+	margin-right: 10px;
+}
+.trabajo p{
+	padding-left: 65px;
 }

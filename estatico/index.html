@@ -32,27 +32,59 @@
     <!-- Fin Navbar -->
     <div class="container">
         <!-- Cabecera -->
-        <div id="cabecera" class="">
+        <div id="cabecera" class="bordesCebecera">
             <div id="cabeceraImagen" class="position-relative">
                 <div class="PortadaEstilo">
                     <img src="./images/portada.jpg" alt="">
                 </div>
                 <img src="./images/thumbnail.jpg" class="fotoPerfil position-absolute translate-middle-y" alt="">
             </div>
-            <div id="infoCabecera" class="mx-5">
+            <div id="infoCabecera" class="px-5">
                 <h3 class="fw-bold">Sebastian Contreras</h3>
-                <p class="fw-light text-muted">Ingenieria en Computacion - Facet</p>
-                <p>Tucuman (Argentina) - <a href="#">Informacion de contacto</a> </p>
+                <div class="row">
+                    <div class="col-6">
+                        <p class="fw-light text-muted">Ingenieria en Computacion - Facet</p>
+                        <p>Tucuman (Argentina) - <a href="#">Informacion de contacto</a> </p>
+                    </div>
+                    <div class="col-6 text-end">
+                        <span class="fw-bold d-block">Conicet</span>
+                        <span class="fw-bold d-block">Universidad Nacional de Tucuman</span>
+                    </div>
+                </div>
                 <div id="botonesCabecera" class="my-3">
                     <button class="btn btn-primary">Tengo interes en</button>
                     <button class="btn btn-light">Añadir Seccion</button>
                     <button class="btn btn-light">Más</button>
                 </div>
             </div>
-
         </div>
-
-
+        <!-- Fin Cabecera -->
+        <!-- Acerca de mi -->
+        <div id="acercaDeMi" class="bordesSeccion">
+            <h3 class="fw-bold">Acerca de mi</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quo nesciunt accusamus dicta delectus
+                ullam porro voluptatibus unde esse, recusandae eum assumenda magnam consequuntur beatae necessitatibus
+                iusto reprehenderit harum ipsa?</p>
+        </div>
+        <!--Fin Acerca de mi -->
+        <!-- Informacion (Experiencia y  Educacion) -->
+        <div id="informacion" class="bordesSeccion">
+            <div id="experiencia">
+                <h3 class="fw-bold mb-3">Experiencia</h3>
+                <article class="trabajo">
+                    <h6 class="fw-bold">Backend Developer</h6>
+                        <img src="./images/trabajos/globant.png" alt="">
+                        <span>Pixar - Jornada Parcial</span>
+                        <p class="text-muted">2014-2020</p>
+                </article>
+                <article class="trabajo">
+                    <h6 class="fw-bold">Backend Developer</h6>
+                        <img src="./images/trabajos/globant.png" alt="">
+                        <span>Pixar - Jornada Parcial</span>
+                        <p class="text-muted">2014-2020</p>
+                </article>
+            </div>
+        </div>
 
     </div>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
