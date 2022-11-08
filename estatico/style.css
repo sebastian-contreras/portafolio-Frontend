@@ -1,0 +1,26 @@
+#redes i{
+    color: gray;
+}
+.PortadaEstilo > img{
+	width: 100%;
+	height: 400px;
+	object-fit: none;
+	background-color: black;
+    border-radius: 1rem 1rem 0rem 0rem;
+}
+#cabecera{
+	border: 2px solid gray;
+	border-radius: 2rem;
+}
+.fotoPerfil{
+	border-radius: 50%;
+	max-width: 200px;
+	margin-left: 5rem;
+	/* transform: translateY(-6.5em); */
+}
+#cabeceraImagen{
+	margin-bottom: 6.5rem;
+}
+#infoCabecera p{
+	margin-bottom: 0.1rem;
+}
