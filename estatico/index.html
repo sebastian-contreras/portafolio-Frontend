@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Curriculum</title>
+    <title>Curriculum - Sebastian Contreras</title>
     <link rel="stylesheet" href="style.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
@@ -40,28 +39,34 @@
                 <img src="./images/thumbnail.jpg" class="fotoPerfil position-absolute translate-middle-y" alt="">
             </div>
             <div id="infoCabecera" class="px-5">
-                <h3 class="fw-bold">Sebastian Contreras</h3>
-                <div class="row">
-                    <div class="col-6">
-                        <p class="fw-light text-muted">Ingenieria en Computacion - Facet</p>
-                        <p>Tucuman (Argentina) - <a href="#">Informacion de contacto</a> </p>
+                <span>
+                    <h3 class="fw-bold">Sebastian Contreras </h3>
+                    <div class="row">
+                        <div class="col-6">
+                            <span class="fw-light text-muted">Ingenieria en Computacion - Facet</span>
+                            <i class="fa-sharp fa-solid fa-pen"></i>
+                            <p>Tucuman (Argentina) - <a href="#">Informacion de contacto</a> </p>
+                        </div>
+
+                        <div class="col-6 text-end">
+                            <span class="fw-bold d-block">Conicet</span>
+                            <span class="fw-bold d-block">Universidad Nacional de Tucuman</span>
+                        </div>
                     </div>
-                    <div class="col-6 text-end">
-                        <span class="fw-bold d-block">Conicet</span>
-                        <span class="fw-bold d-block">Universidad Nacional de Tucuman</span>
+                    <div id="botonesCabecera" class="my-3">
+                        <button class="btn btn-primary">Tengo interes en</button>
+                        <button class="btn btn-light">Añadir Seccion</button>
+                        <button class="btn btn-light">Más</button>
                     </div>
-                </div>
-                <div id="botonesCabecera" class="my-3">
-                    <button class="btn btn-primary">Tengo interes en</button>
-                    <button class="btn btn-light">Añadir Seccion</button>
-                    <button class="btn btn-light">Más</button>
-                </div>
             </div>
         </div>
         <!-- Fin Cabecera -->
         <!-- Acerca de mi -->
         <div id="acercaDeMi" class="bordesSeccion">
-            <h3 class="fw-bold">Acerca de mi</h3>
+            <div class="tituloSeccion">
+                <h3 class="fw-bold">Acerca de mi</h3>
+                <i class="fa-sharp fa-solid fa-pen"></i>
+            </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quo nesciunt accusamus dicta delectus
                 ullam porro voluptatibus unde esse, recusandae eum assumenda magnam consequuntur beatae necessitatibus
                 iusto reprehenderit harum ipsa?</p>
@@ -70,30 +75,52 @@
         <!-- Informacion (Experiencia y  Educacion) -->
         <div id="informacion" class="bordesSeccion">
             <div id="experiencia">
-                <h3 class="fw-bold mb-3">Experiencia</h3>
+                <div class="tituloSeccion mb-3">
+                    <h3 class="fw-bold">Experiencia</h3>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
                 <article class="trabajo">
-                    <h6 class="fw-bold">Backend Developer</h6>
+                    <div class="tituloSeccion ">
+                        <h6 class="fw-bold">Backend Developer</h6>
+                        <i class="fa-sharp fa-solid fa-pen"></i>
+                        <i class="fa-solid fa-trash"></i>
+                    </div>
                     <img src="./images/trabajos/globant.png" alt="">
-                    <span>Pixar - Jornada Parcial</span>
+                    <span>Globant - Jornada Parcial</span>
                     <p class="text-muted">2014-2020</p>
                 </article>
                 <article class="trabajo">
-                    <h6 class="fw-bold">Backend Developer</h6>
+                    <div class="tituloSeccion">
+                        <h6 class="fw-bold">Frontend Developer</h6>
+                        <i class="fa-sharp fa-solid fa-pen"></i>
+                        <i class="fa-solid fa-trash"></i>
+                    </div>
                     <img src="./images/trabajos/globant.png" alt="">
                     <span>Pixar - Jornada Parcial</span>
-                    <p class="text-muted">2014-2020</p>
+                    <p class="text-muted">2020-Actualidad</p>
                 </article>
             </div>
             <div id="Educacion">
-                <h3 class="fw-bold mb-3">Educacion</h3>
+                <div class="tituloSeccion mb-3">
+                    <h3 class="fw-bold">Educacion</h3>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
                 <article class="trabajo">
-                    <h6 class="fw-bold">Universidad Nacional de tucuman</h6>
+                    <div class="tituloSeccion">
+                        <h6 class="fw-bold">Universidad Nacional de tucuman</h6>
+                        <i class="fa-sharp fa-solid fa-pen"></i>
+                        <i class="fa-solid fa-trash"></i>
+                    </div>
                     <img src="./images/educacion/unt.jpg" alt="">
                     <span>Ingenieria en Computacion - FACET</span>
                     <p class="text-muted">2017-Actualidad</p>
                 </article>
                 <article class="trabajo">
-                    <h6 class="fw-bold">Titulo Secundario</h6>
+                    <div class="tituloSeccion">
+                        <h6 class="fw-bold">Titulo Secundario</h6>
+                        <i class="fa-sharp fa-solid fa-pen"></i>
+                        <i class="fa-solid fa-trash"></i>
+                    </div>
                     <img src="./images/educacion/LogoSEOC.jpg" alt="">
                     <span>Instituto Congreso de tucuman SEOC</span>
                     <p class="text-muted">2014-2016</p>
@@ -103,9 +130,27 @@
 
         <!-- Habilidades -->
         <div id="habilidad" class="bordesSeccion">
-            <h3 class="fw-bold mb-3">Hard skills & Soft skills</h3>
+            <div class="tituloSeccion mb-3">
+                <h3 class="fw-bold">Hard skills & Soft skills</h3>
+                <i class="fa-solid fa-plus"></i>
+            </div>
             <article class="text-center trabajo">
-                <p class="mb-1">HTML</p>
+                <div class="tituloSeccion">
+                    <p class="mb-1">HTML</p>
+                    <i class="fa-sharp fa-solid fa-pen"></i>
+                    <i class="fa-solid fa-trash"></i>
+                </div>                <div class="progress">
+                    <div class="progress-bar progress-bar-striped bg-success" role="progressbar"
+                        aria-label="Success striped example" style="width: 25%" aria-valuenow="25" aria-valuemin="0"
+                        aria-valuemax="100"></div>
+                </div>
+            </article>
+            <article class="text-center trabajo">
+                <div class="tituloSeccion">
+                    <p class="mb-1">CSS</p>
+                    <i class="fa-sharp fa-solid fa-pen"></i>
+                    <i class="fa-solid fa-trash"></i>
+                </div>
                 <div class="progress">
                     <div class="progress-bar progress-bar-striped bg-success" role="progressbar"
                         aria-label="Success striped example" style="width: 25%" aria-valuenow="25" aria-valuemin="0"
@@ -113,16 +158,11 @@
                 </div>
             </article>
             <article class="text-center trabajo">
-                <p class="mb-1">CSS</p>
-                <div class="progress">
-                    <div class="progress-bar progress-bar-striped bg-success" role="progressbar"
-                        aria-label="Success striped example" style="width: 25%" aria-valuenow="25" aria-valuemin="0"
-                        aria-valuemax="100"></div>
-                </div>
-            </article>
-            <article class="text-center trabajo">
-                <p class="mb-1">JavaScript</p>
-                <div class="progress">
+                <div class="tituloSeccion">
+                    <p class="mb-1">JavaScript</p>
+                    <i class="fa-sharp fa-solid fa-pen"></i>
+                    <i class="fa-solid fa-trash"></i>
+                </div>                <div class="progress">
                     <div class="progress-bar progress-bar-striped bg-success" role="progressbar"
                         aria-label="Success striped example" style="width: 25%" aria-valuenow="25" aria-valuemin="0"
                         aria-valuemax="100"></div>
@@ -132,27 +172,44 @@
 
         <!-- Proyectos -->
         <div id="proyectos" class="bordesSeccion mb-3">
-            <h3 class="fw-bold mb-3">Hard skills & Soft skills</h3>
+            <div class="tituloSeccion mb-3">
+                <h3 class="fw-bold mb-3">Proyectos</h3>
+                <i class="fa-solid fa-plus"></i>
+            </div>
             <article class="trabajo">
-                <h5 class="fw-bold mb-2">
-                    <a href="#">Base de datos de Sistema de salud orientada a Covid-19</a>
-                </h5>
+                <div class="tituloSeccion">
+                    <h5 class="fw-bold mb-2">
+                        <a href="#">Base de datos de Sistema de salud orientada a Covid-19</a>
+                    </h5>
+                    <i class="fa-sharp fa-solid fa-pen"></i>
+                    <i class="fa-solid fa-trash"></i>
+                </div>
+
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe maiores cum blanditiis cupiditate
                     adipisci suscipit minima obcaecati dolores, voluptate numquam accusamus architecto incidunt quas
                     fuga quidem modi eum quod. Debitis!</p>
             </article>
             <article class="trabajo">
-                <h5 class="fw-bold mb-2">
-                    <a href="#">Base de datos y Documentacion sistema de stock KCrepuestos</a>
-                </h5>
+                <div class="tituloSeccion">
+                    <h5 class="fw-bold mb-2">
+                        <a href="#">Base de datos y Documentacion sistema de stock KCrepuestos</a>
+                    </h5>
+                    <i class="fa-sharp fa-solid fa-pen"></i>
+                    <i class="fa-solid fa-trash"></i>
+                </div>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe maiores cum blanditiis cupiditate
                     adipisci suscipit minima obcaecati dolores, voluptate numquam accusamus architecto incidunt quas
                     fuga quidem modi eum quod. Debitis!</p>
             </article>
             <article class="trabajo">
-                <h5 class="fw-bold mb-2">
-                    <a href="#">Contador de insectos en Sticky paper IA</a>
-                </h5>
+                <div class="tituloSeccion">
+                    <h5 class="fw-bold mb-2">
+                        <a href="#">Contador de insectos en Sticky paper IA</a>
+                    </h5>
+                    <i class="fa-sharp fa-solid fa-pen"></i>
+                    <i class="fa-solid fa-trash"></i>
+                </div>
+
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe maiores cum blanditiis cupiditate
                     adipisci suscipit minima obcaecati dolores, voluptate numquam accusamus architecto incidunt quas
                     fuga quidem modi eum quod. Debitis!</p>
@@ -164,7 +221,7 @@
     <footer class="bg-dark text-center text-lg-start">
         <!-- Copyright -->
         <div class="text-center p-3 text-light">
-            © 2020 Copyright:
+            © 2022 Copyright:
             <a href="https://mdbootstrap.com/">Sebastian Contreras</a>
         </div>
         <!-- Copyright -->

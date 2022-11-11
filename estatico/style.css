@@ -43,3 +43,13 @@
 #informacion .trabajo p{
 	padding-left: 65px;
 }
+
+.tituloSeccion h3,h5,h6,p{
+	display: inline;
+}
+
+.tituloSeccion i{
+	float: right;
+	margin-left: 1rem;
+
+}
